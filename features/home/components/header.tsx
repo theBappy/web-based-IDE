@@ -34,14 +34,14 @@ export function Header() {
                     className="flex items-center gap-2 justify-center"
                   >
                     <Image
-                      src={"/logo.svg"}
+                      src={"/l.svg"}
                       alt="Logo"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
 
                     <span className="hidden sm:block font-extrabold text-lg">
-                      VibeCode Editor
+                      Code Crafts
                     </span>
                   </Link>
                   <span className="text-zinc-300 dark:text-zinc-700">|</span>

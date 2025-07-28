@@ -10,7 +10,7 @@ export default function Home() {
     <div className="z-20 flex flex-col items-center justify-start min-h-screen py-2 mt-10">
       <div className="flex flex-col justify-center items-center my-5">
         <Image src={"/7.svg"} alt="hero-section-image" height={500} width={500} />
-        <h1 className="z-20 text-6xl mt-5 font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 tracking-tight leading-[1.3] font-playfair">
+        <h1 className="z-20 text-6xl mt-5 font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 tracking-tight leading-[1.3] font-playfair">
          Crafts your code with Intelligence
         </h1> 
       </div>
@@ -21,7 +21,7 @@ export default function Home() {
         efficiently.
       </p>
       <Link href={"/dashboard"}>
-        <Button variant={"brand"} className="mb-4" size={"lg"}>
+        <Button variant={"brand"} className="mb-4" size={"lg"}>Get Started
           <ArrowUpRight className="w-3.5 h-3.5" />
         </Button>
       </Link>
