@@ -55,8 +55,6 @@ enum Templates {
   EXPRESS
   VUE
   HONO
-  DJANGO
-  SPRINTBOOT
   ANGULAR
 }
 
