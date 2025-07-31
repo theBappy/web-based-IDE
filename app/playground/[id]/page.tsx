@@ -5,6 +5,7 @@ import { TooltipProvider } from "../../../components/ui/tooltip";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import { Separator } from "@/components/ui/separator";
 import { usePlayground } from "@/features/playground/hooks/usePlayground";
+import { TemplateFileTree } from "@/features/playground/components/template-file-tree";
 
 const PlaygroundPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -13,7 +14,9 @@ const PlaygroundPage = () => {
   return (
     <div>
       <>
-        {/* TODO: template file tree */}
+        <TemplateFileTree 
+        data={templateData}
+        />
         <SidebarInset>
           <header className="flex h-16 shrink-0 items-center gap-2 border-bottom px-4">
             <SidebarTrigger className="-ml-1">
